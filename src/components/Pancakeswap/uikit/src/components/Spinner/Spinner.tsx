@@ -1,5 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
+import { css } from "@emotion/core";
+import BounceLoader from "react-spinners/BounceLoader";
 import PanIcon from "./PanIcon";
 import PancakeIcon from "./PancakeIcon";
 import { SpinnerProps } from "./types";
@@ -42,10 +44,20 @@ const FloatingPanIcon = styled(PanIcon)`
   transform: translate3d(0, 0, 0);
 `;
 
+const override = css`
+  display: block;
+  margin: 0 auto;
+  border-color: red;
+  margin-bottom: 10px;
+`;
+
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
+  const [loading, setLoading] = React.useState(true);
+  const [color, setColor] = React.useState("#ff8800");
+
   return (
     <Container>
-      <RotatingPancakeIcon width={`${size * 0.5}px`} />
+      <BounceLoader color={color} loading={loading} css={override} size={60} />
       <FloatingPanIcon width={`${size}px`} />
     </Container>
   );

@@ -37,7 +37,7 @@ const FAQ = () => {
             <Text fontSize="14px" color="textSubtle">
               {TranslateString(
                 999,
-                'Only trades on BNB/BUSD, CAKE/BNB, ETH/BNB and BTCB/BNB pairs will be included in volume calculations.',
+                'Only trades on BNB/BUSD, APES/BNB, ETH/BNB and BTCB/BNB pairs will be included in volume calculations.',
               )}
             </Text>
           </FoldableText>
@@ -62,14 +62,14 @@ const FAQ = () => {
               -{' '}
               {TranslateString(
                 999,
-                'Prizes to be distributed in CAKE and shared by all members of each respective tier as per the Prizes section above.',
+                'Prizes to be distributed in APES and shared by all members of each respective tier as per the Prizes section above.',
               )}
             </Text>
             <Text fontSize="14px" color="textSubtle">
               -{' '}
               {TranslateString(
                 999,
-                'CAKE prizes will be distributed as per the CAKE/BUSD price on the day of distribution. Every eligible participant will win prizes at the end of the competition.',
+                'APES prizes will be distributed as per the APES/BUSD price on the day of distribution. Every eligible participant will win prizes at the end of the competition.',
               )}
             </Text>
             <Text fontSize="14px" color="textSubtle">
@@ -81,14 +81,14 @@ const FAQ = () => {
               -{' '}
               {TranslateString(
                 999,
-                'In the event of a disagreement concerning the final winning team or rank, PancakeSwap will have the final say.',
+                'In the event of a disagreement concerning the final winning team or rank, ApeFinance will have the final say.',
               )}
             </Text>
             <Text fontSize="14px" color="textSubtle">
               -{' '}
               {TranslateString(
                 999,
-                'PancakeSwap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.',
+                'ApeFinance can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.',
               )}
             </Text>
           </FoldableText>

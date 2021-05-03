@@ -73,9 +73,9 @@ const ClaimModal: React.FC<CompetitionProps> = ({ onDismiss, onClaimSuccess, use
             +{userPointReward} {TranslateString(999, 'Points')}
           </Text>
         </Flex>
-        {/* cake */}
+        {/* APES */}
         <Heading mt="16px" size="md" mb={canClaimNFT ? '16px' : '0px'}>
-          {cakeReward.toFixed(2)} CAKE
+          {cakeReward.toFixed(2)} APES
         </Heading>
         {/* NFT */}
         {canClaimNFT ? (

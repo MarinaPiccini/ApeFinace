@@ -675,7 +675,7 @@ it("renders correctly", () => {
               </svg>
             </button>
             <a
-              aria-label="Pancake home page"
+              aria-label="APES home page"
               class="c6"
               href="/"
             >

@@ -18,7 +18,7 @@ const StyledCardHeader: React.FC<{
   const poolImageSrc = isAutoVault
     ? `cake-cakevault.svg`
     : `${earningTokenSymbol}-${stakingTokenSymbol}.svg`.toLocaleLowerCase()
-  const isCakePool = earningTokenSymbol === 'CAKE' && stakingTokenSymbol === 'CAKE'
+  const isCakePool = earningTokenSymbol === 'CAKE' && stakingTokenSymbol === 'APES'
   const background = isCakePool ? 'bubblegum' : 'cardHeader'
 
   const getHeadingPrefix = () => {
@@ -27,7 +27,7 @@ const StyledCardHeader: React.FC<{
       return `${TranslateString(999, 'Auto')}`
     }
     if (isCakePool) {
-      // manual cake
+      // manual APES
       return `${TranslateString(999, 'Manual')}`
     }
     // all other pools
@@ -39,7 +39,7 @@ const StyledCardHeader: React.FC<{
       return `${TranslateString(999, 'Automatic restaking')}`
     }
     if (isCakePool) {
-      return `${TranslateString(999, 'Earn CAKE, stake CAKE')}`
+      return `${TranslateString(999, 'Earn APES, stake APES')}`
     }
     return `${TranslateString(1070, 'Stake')} ${stakingTokenSymbol}`
   }

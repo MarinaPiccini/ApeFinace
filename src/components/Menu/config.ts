@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap',
+        href: 'https://kind-galileo-417dfb.netlify.app/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/pool',
+        href: 'https://kind-galileo-417dfb.netlify.app/#/pool',
       },
       {
         label: 'LP Migration',

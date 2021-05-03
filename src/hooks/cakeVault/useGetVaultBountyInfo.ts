@@ -29,7 +29,7 @@ const useGetVaultBountyInfo = (refresh?: number) => {
   }, [cakeVaultContract, refresh])
 
   useEffect(() => {
-    // Convert estimated rewards to dollars and a cake display value
+    // Convert estimated rewards to dollars and a APES display value
     if (estimatedCallBountyReward && cakePrice) {
       const dollarValueOfReward = estimatedCallBountyReward.multipliedBy(cakePrice)
       const estimatedDollars = getFullDisplayBalance(dollarValueOfReward, 18, 2)

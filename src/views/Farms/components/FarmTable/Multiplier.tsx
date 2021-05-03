@@ -33,12 +33,12 @@ const Multiplier: React.FunctionComponent<MultiplierProps> = ({ multiplier }) =>
   const TranslateString = useI18n()
   const tooltipContent = (
     <div>
-      {TranslateString(999, 'The multiplier represents the amount of CAKE rewards each farm gets.')}
+      {TranslateString(999, 'The multiplier represents the amount of APES rewards each farm gets.')}
       <br />
       <br />
       {TranslateString(
         999,
-        'For example, if a 1x farm was getting 1 CAKE per block, a 40x farm would be getting 40 CAKE per block.',
+        'For example, if a 1x farm was getting 1 APES per block, a 40x farm would be getting 40 APES per block.',
       )}
     </div>
   )
