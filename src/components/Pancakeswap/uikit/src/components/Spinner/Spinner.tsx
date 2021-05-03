@@ -47,8 +47,10 @@ const FloatingPanIcon = styled(PanIcon)`
 const override = css`
   display: block;
   margin: 0 auto;
-  border-color: red;
-  margin-bottom: 10px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 24%;
+  margin-top: 23%;
 `;
 
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
@@ -57,7 +59,7 @@ const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
 
   return (
     <Container>
-      <BounceLoader color={color} loading={loading} css={override} size={60} />
+      <BounceLoader color={color} loading={loading} css={override} size={45} />
       <FloatingPanIcon width={`${size}px`} />
     </Container>
   );
