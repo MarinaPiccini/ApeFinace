@@ -27,11 +27,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://kind-galileo-417dfb.netlify.app/#/swap",
+        href: "https://swap.apefinance.org/#/swap",
       },
       {
         label: "Liquidity",
-        href: "https://kind-galileo-417dfb.netlify.app/#/pool",
+        href: "https://swap.apefinance.org/#/pool",
       },
     ],
   },

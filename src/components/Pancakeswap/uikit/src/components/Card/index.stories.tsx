@@ -94,7 +94,7 @@ export const Ribbon: React.FC = () => {
     <div style={{ padding: "32px", width: "500px" }}>
       <Row>
         <Card ribbon={<CardRibbon text="Ribbon" />}>
-          <div style={{ height: "112px", backgroundColor: "#191326" }} />
+          <div style={{ height: "112px" }} />
           <CardBody style={{ height: "150px" }}>Body</CardBody>
         </Card>
       </Row>
