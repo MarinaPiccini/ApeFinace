@@ -18,14 +18,14 @@ const config: MenuEntry[] = [
         label: 'Liquidity',
         href: 'https://swap.apefinance.org/#/pool',
       },
-      {
-        label: 'LP Migration',
-        href: 'https://v1exchange.pancakeswap.finance/#/migrate',
-      },
-      {
-        label: 'V1 Liquidity (Old)',
-        href: 'https://v1exchange.pancakeswap.finance/#/pool',
-      },
+      // {
+      //   label: 'LP Migration',
+      //   href: 'https://v1exchange.pancakeswap.finance/#/migrate',
+      // },
+      // {
+      //   label: 'V1 Liquidity (Old)',
+      //   href: 'https://v1exchange.pancakeswap.finance/#/pool',
+      // },
     ],
   },
   {

@@ -41,7 +41,7 @@ const StyledCardHeader: React.FC<{
     if (isCakePool) {
       return `${TranslateString(999, 'Earn APES, stake APES')}`
     }
-    return `${TranslateString(1070, 'Stake')} ${stakingTokenSymbol}`
+    return `${TranslateString(1070, 'Stake')} APES`
   }
 
   return (

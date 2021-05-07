@@ -45,7 +45,7 @@ const Pools: React.FC = () => {
         <Flex justifyContent="space-between" flexDirection={['column', null, 'row']}>
           <Flex flexDirection="column" mr={['8px', 0]}>
             <Heading as="h1" size="xxl" color="secondary" mb="24px">
-              {TranslateString(999, 'Syrup Pools')}
+              {TranslateString(999, 'Moon Pools')}
             </Heading>
             <Heading size="md" color="text">
               {TranslateString(999, 'Simply stake tokens to earn.')}
