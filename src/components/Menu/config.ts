@@ -62,43 +62,43 @@ const config: MenuEntry[] = [
     icon: 'TeamBattleIcon',
     href: '/competition',
   },
-  {
-    label: 'Teams & Profile',
-    icon: 'GroupsIcon',
-    items: [
-      {
-        label: 'Leaderboard',
-        href: '/teams',
-      },
-      {
-        label: 'Task Center',
-        href: '/profile/tasks',
-      },
-      {
-        label: 'Your Profile',
-        href: '/profile',
-      },
-    ],
-  },
+  // {
+  //   label: 'Teams & Profile',
+  //   icon: 'GroupsIcon',
+  //   items: [
+  //     {
+  //       label: 'Leaderboard',
+  //       href: '/teams',
+  //     },
+  //     {
+  //       label: 'Task Center',
+  //       href: '/profile/tasks',
+  //     },
+  //     {
+  //       label: 'Your Profile',
+  //       href: '/profile',
+  //     },
+  //   ],
+  // },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'Overview',
-        href: 'https://pancakeswap.info',
+        href: 'https://apefinance.info',
       },
       {
         label: 'Tokens',
-        href: 'https://pancakeswap.info/tokens',
+        href: 'https://apefinance.info/tokens',
       },
       {
         label: 'Pairs',
-        href: 'https://pancakeswap.info/pairs',
+        href: 'https://apefinance.info/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://pancakeswap.info/accounts',
+        href: 'https://apefinance.info/accounts',
       },
     ],
   },
