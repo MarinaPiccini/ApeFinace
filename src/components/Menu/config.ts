@@ -116,7 +116,7 @@ const config: MenuEntry[] = [
         href: 'https://docs.apefinance.org.finance/contact-us',
       },
       {
-        label: 'Voiting',
+        label: 'Voting',
         href: 'https://github.com/apefinance',
       },
       {
