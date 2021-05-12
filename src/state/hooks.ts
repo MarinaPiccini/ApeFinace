@@ -47,6 +47,7 @@ export const useFarms = (): FarmsState => {
 
 export const useFarmFromPid = (pid): Farm => {
   const farm = useSelector((state: State) => state.farms.data.find((f) => f.pid === pid))
+  console.log(farm)
   return farm
 }
 
@@ -188,7 +189,6 @@ export const usePriceCakeBusd = (): BigNumber => {
   const bnbBusdPrice = usePriceBnbBusd()
 
   const cakeBusdPrice = cakeBnbFarm.tokenPriceVsQuote ? bnbBusdPrice.times(cakeBnbFarm.tokenPriceVsQuote) : BIG_ZERO
-
   return cakeBusdPrice
 }
 
