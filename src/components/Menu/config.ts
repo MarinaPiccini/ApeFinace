@@ -42,10 +42,10 @@ const config: MenuEntry[] = [
     label: 'Prediction',
     icon: 'PredictionsIcon',
     href: '/prediction',
-    status: {
-      text: 'BETA',
-      color: 'warning',
-    },
+    // status: {
+    //   text: 'BETA',
+    //   color: 'warning',
+    // },
   },
   {
     label: 'Lottery',
@@ -57,11 +57,11 @@ const config: MenuEntry[] = [
     icon: 'NftIcon',
     href: '/collectibles',
   },
-  {
-    label: 'Team Battle',
-    icon: 'TeamBattleIcon',
-    href: '/competition',
-  },
+  // {
+  //   label: 'Team Battle',
+  //   icon: 'TeamBattleIcon',
+  //   href: '/competition',
+  // },
   // {
   //   label: 'Teams & Profile',
   //   icon: 'GroupsIcon',
@@ -90,7 +90,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Tokens',
-        href: 'https://apefinance.info/tokens',
+        href: 'https://bscscan.com/token/0x6f69B679dd51CDc50991DA0b2dc9712d57d4B095',
       },
       {
         label: 'Pairs',
@@ -113,27 +113,27 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Contact',
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        href: 'https://docs.apefinance.org.finance/contact-us',
       },
       {
-        label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
+        label: 'Voiting',
+        href: 'https://github.com/apefinance',
       },
       {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://docs.apefinance.org',
       },
       {
         label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://docs.apefinance.finance/',
       },
       {
         label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://apefinance.medium.com/',
       },
       {
         label: 'Merch',
-        href: 'https://pancakeswap.creator-spring.com/',
+        href: 'https://apefinance.creator-spring.com/',
       },
     ],
   },

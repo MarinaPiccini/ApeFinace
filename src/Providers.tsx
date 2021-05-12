@@ -17,11 +17,11 @@ const Providers: React.FC = ({ children }) => {
         <ToastsProvider>
           <HelmetProvider>
             <ThemeContextProvider>
-              <LanguageContextProvider>
+              {/* <LanguageContextProvider> */}
                 <RefreshContextProvider>
                   <ModalProvider>{children}</ModalProvider>
                 </RefreshContextProvider>
-              </LanguageContextProvider>
+              {/* </LanguageContextProvider> */}
             </ThemeContextProvider>
           </HelmetProvider>
         </ToastsProvider>
